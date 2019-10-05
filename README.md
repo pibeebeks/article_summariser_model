@@ -1,7 +1,7 @@
 # article_summariser_model
 includes files for an article summariser
 it requires gensim version 3.3.0, wget version 3.2, nltk version 3.2.5, Python version 3 and Tensorflow version 1.8.0
-it  implements seq2seq using tensorflow text summarization. it decoder,encoder model uses attention mechanism 
+it  implements seq2seq using tensorflow text summarization. it uses decoder-encoder model uses attention mechanism 
 it uses glove pre trained vectors for word embedding from stanford 
  
  -for Preparation of the  dataset, Dataset is available at [harvardnlp/sent-summary](https://github.com/harvardnlp/sent-summary). 
